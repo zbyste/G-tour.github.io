@@ -1,0 +1,549 @@
+<!DOCTYPE HTML>
+<!--
+	Cube by FreeHTML5.co
+	Twitter: http://twitter.com/gettemplateco
+	URL: http://freehtml5.co
+-->
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>G tour &mdash; Závod chlupatejch amatérů</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="závod" />
+	<meta name="keywords" content="závod, cyklistika" />
+	<meta name="author" content="Gejlordi" />
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Themify Icons-->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="gtco-loader"></div>
+
+	<div id="page">
+
+		<nav class="gtco-nav" role="navigation">
+			<div class="gtco-container">
+
+				<div class="row">
+					<div class="col-sm-2 col-xs-12">
+						<div id="gtco-logo"><a href="index.html"><img src="images/gtour.png" alt="G tour"></a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li class="active"><a href="index.html">Úvod</a></li>
+
+							<li class="has-dropdown">
+								<a href="#">Etapy</a>
+								<ul class="dropdown">
+									<li><a href="prologue.html">Prologue</a></li>
+									<li><a href="etapa1.html">Etapa 1</a></li>
+									<li><a href="etapa2.html">Etapa 2</a></li>
+									<li><a href="etapa3.html">Etapa 3</a></li>
+								</ul>
+							</li>
+							<li class="has-dropdown">
+								<a href="#">Týmy</a>
+								<ul class="dropdown">
+									<li><a href="bora.html">Bora</a></li>
+									<li><a href="skveska.html">SK Veská</a></li>
+									<li><a href="sky.html">Sky</a></li>
+									<li><a href="quickstep.html">Quickstep</a></li>
+									<li><a href="cc.html">Cannabis Canniballs</a></li>
+								</ul>
+							</li>
+							<li class="has-dropdown">
+								<a href="#">Výsledky</a>
+								<ul class="dropdown">
+									<li><a href="celkove_vysledky.html">Celkové</a></li>
+									<li><a href="prologue_vysledky.html">Prologue</a></li>
+									<li><a href="e1_vysledky.html">Etapa 1</a></li>
+									<li><a href="e2_vysledky.html">Etapa 2</a></li>
+									<li><a href="e3_vysledky.html">Etapa 3</a></li>
+								</ul>
+							</li>
+							<li class="has-dropdown">
+								<a href="#">Historie</a>
+								<ul class="dropdown">
+									<li><a href="2019.html">2019</a></li>
+									<li><a href="2018.html">2018</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</nav>
+
+		<header id="gtco-header" class="gtco-cover gtco-cover-xs gtco-inner" role="banner" style="background-image: url('images/uvodheader.png'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-left">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="row">
+									<!--<div class="col-md-5 text-center header-img animate-box">
+										<img src="images/gtour19.png" alt="G tour">
+									</div>-->
+									<div class="col-md-7 copy animate-box">
+										<h1><b>G tour</b></h1>
+										<p>Závod chlupatejch amatérů</p>
+
+
+
+										<p id="demo"></p>
+
+										<script>
+											var deadline = new Date("jul 22, 2020 18:00:00").getTime();
+
+											var x = setInterval(function() {
+
+												var now = new Date().getTime();
+												var t = deadline - now;
+												var days = Math.floor(t / (1000 * 60 * 60 * 24));
+												var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+												var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+												var seconds = Math.floor((t % (1000 * 60)) / 1000);
+												document.getElementById("day").innerHTML = days;
+												document.getElementById("hour").innerHTML = hours;
+												document.getElementById("minute").innerHTML = minutes;
+												document.getElementById("second").innerHTML = seconds;
+												if (t < 0) {
+													clearInterval(x);
+													document.getElementById("demo").innerHTML = "Závod už běží!";
+													document.getElementById("day").innerHTML = '0';
+													document.getElementById("hour").innerHTML = '0';
+													document.getElementById("minute").innerHTML = '0';
+													document.getElementById("second").innerHTML = '0';
+												}
+											}, 1000);
+										</script>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- END #gtco-header
+
+
+		END .gtco-client -->
+
+		<div class="gtco-services gtco-section">
+			<div class="gtco-container">
+				<div class="row row-pb-sm">
+					<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+						<div id="clockdiv">
+								<h3>Do závodu zbývá..</h3>
+							<div>
+								<span class="days" id="day"></span>
+								<div class="smalltext">dní</div>
+							</div>
+							<div>
+								<span class="hours" id="hour"></span>
+								<div class="smalltext">hodin</div>
+							</div>
+							<div>
+								<span class="minutes" id="minute"></span>
+								<div class="smalltext">minut</div>
+							</div>
+							<div>
+								<span class="seconds" id="second"></span>
+								<div class="smalltext">sekund</div>
+							</div>
+						</div></br></br></br></br><hr></br></br>
+						<h2>Základní informace</h2>
+
+						<!--	<p><a href="https://vimeo.com/channels/staffpicks/93951774" class="btn btn-special popup-vimeo">Watch The Video</a></p>-->
+					</div>
+				</div>
+				<div class="row row-pb-md">
+					<div class="col-md-4 col-sm-4 service-wrap">
+						<div class="service">
+							<h3><i class="ti-calendar"></i> Datum</h3>
+							<p>16. - 19. července 2020 </br>
+								čtvrtek: prolog </br>
+								pátek - neděle: 3 etapy, banket </p>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-4 service-wrap">
+						<div class="service">
+							<h3><i class="ti-pin"></i> Trasa</h3>
+							<p>Orličky - Trutnov</br>
+								Trutnov - Zdravotník</br>
+								Zdravotník - Kacanovy </br>
+
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 service-wrap">
+						<div class="service">
+							<h3><i class="ti-list"></i> Start</h3>
+							<p>Prolog 16. 7. v 18:00</br>
+								další etapy se starují co nejdříve</br>
+								dle aktuální formy
+							</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="clearfix visible-md-block visible-sm-block"></div>
+				<p>
+					<b>Prezentace:</b></br> čt 16. 7. 2020 - ​18:00 v Jabku u Nogy.
+					Proběhne předzávodní briefing a výklad trasy Prologu, startovka (startuje se podle obráceného pořadí z loňska; neklasifikování se klasicky nalosujou na začátek startovní listiny) brífink dalších etap bude probíhat vždy večer a ráno přímo před
+					etapou. Tratě k nastudování na webu a facebooku (gpx si stáhněte přímo v Mapy.cz)</br></br>
+					<b>Start:</b></br>
+					Prolog bude odstartován cca v 19.30 z Jabka, start intervalově po 1'
+					Starty ostatních etap v pozdním dopoledni dle aktuální formy, nálady a počasí (ideální ale co nejdřív - hlavně E1!).</br></br>
+					Prolog - čtvrtek 16.7. 2020, Jablonné n. O. > Orličky (5,7km, 195m př., individuální časovka)</br>
+					Etapa 1 - pátek 17.7. 2020, Orličky > Komárov (109km, 1850m př.)</br>
+					Etapa 2 - sobota 18.7. 2020, Nové Buky > Sedlo pod Dvoračkami (83km, 1954m př.)</br>
+					Etapa 3 - neděle 19.7. 2020, Rokytnice n. J. > Kacanovy (77km, 1338m př.)</br></br>
+
+					​
+
+					<b>Doprovodné vozidlo:</b></br>
+					Během celého závodu bude k dispozici doprovodný vůz (možná), který bude převážet osobní věci mezi jednotlivými starty a cíly. Bude zde občerstvení v podobě vody, ionťáku, energetických tyčinek a gelů, základní materiál k ošetření drobných
+					poranění, pumpička na kolo a nářadí. Zároveň bude sloužit jako závodní kancelář.</br></br>
+
+					<b>Povinná výbava:</b></br>
+					Na kolo: helma, týmový dres, min. 1l tekutin, 1x náhradní duše, mobil s instalací na řidítka s appkou pro trasu, hodinky se stopkami, peníze na pikolíčko</br>
+
+					Do auta: větrovka, věci na převlečení v podepsaném batůžku, spacák (karimatka), kulemaz, epo, steroidy</br></br>
+
+					<b>Občerstvení:</b></br>
+					Na trati: z osobních zásob a doprovodného vozu na povinných občerstvovacích stanicích. Drogy budou podávány až večer po etapě!</br></br>
+
+					<b>Ubytování:</b></br>
+					Zajištěno v centrech jednotlivých etap (Nogis, Zlosin, Vask, Vytón), nelze zaručit postele a deky pro všechny účastníky (postele fasujou přednostně zasloužilí ProGtýmy), doporučen spacák a karimatka.</br>
+					V rámci ubytování bude zajištěno i vyprání dresů a snídaně.</br></br>
+
+					<b>Média:</b></br>
+					Fotodokumentace na Instagramu závodu. Poetapové interview vítěze samozřejmostí. Sponzorované příspěvky na sockách budou patřičně označeny.</br></br>
+
+					<b>Doprovodný program:</b></br>
+					Bude zajištěn v lokálních putykách, konzumace alkoholu bude přizpůsobena sportovnímu vytížení.
+
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- END .gtco-services -->
+
+
+
+	<div class="gtco-section gtco-products" style=align: middle>
+		<div class="gtco-container">
+			<div class="row row-pb-sm">
+				<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+					<hr></br></br><h2>Pravidla závodu</h2>
+				</div>
+			</div>
+			<p>V rámci závodu se soutěží ve 3 soutěžích</p>
+
+			<p><b>Žlutý trikot</br></b></p>
+			<p><img src="images/zluty.png" alt="" style="float:left;width:90px;height:90px;padding:5px;" class="img-responsive"></p>
+			<p>
+				Právo nosit žlutý trikot má vítěz průběžné klasifikace etapového závodu. Lídr celkové klasifikace se do žlutého trikotu obléká při slavnostním vyhlášení výsledků každé etapy.
+				</br></br></br>
+			</p>
+
+			<p><b>Zelený trikot</br></b></p>
+				<p><img src="images/zeleny.png" alt="" style="float:left;width:90px;height:90px;padding:5px;" class="img-responsive"></p>
+			<p>
+				Na jednotlivé etapy je vypsáno několik sprinterských prémií. Body jsou udělovány taktéž prvním jezdcům v cíli (níže tabulka)
+				</br>* rozdělení bodů za jednotlivé premie a cíle bude upřesněno
+				</br></br></br>
+			</p>
+
+
+			<p><b>Puntíkatý trikot</br></b></p>
+				<p><img src="images/puntikaty.png" alt="" style="float:left;width:90px;height:90px;padding:5px;" class="img-responsive"></p>
+			<p>
+				Na jednotlivé etapy je vypsáno několik takzvaných vrchařských prémií. Kopce jsou na při závodě různě kategorizovány. Hors catégorie je nejvyšší kategorie stoupání na Gtour a je takzvaně "mimo kategorii". Čím těžší kopec, tím více bodů
+				závodník získá.
+				</br>* rozdělení bodů za jednotlivé premie bude upřesněno
+				</br></br></p>
+
+			<div class="row row-pb-sm">
+				<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+					<p>
+						</br><hr></br></br><h2>Závodíme fair play! Tak určitě.</h2>
+					</p>
+				</div>
+			</div>
+
+			<p>
+				Při závodě bude kladen důraz na několik klíčových parametrů, které byly direktoriátem stanoveny následovně:</br></br>
+				<b>(1) Férovost</b> - ve smyslu jasně definovaných bodů a úseků, kde se závodí a kde ne, aby
+				už nedocházelo k vágním formulacím typu "dolů jede každý jak může, ale
+				nezávodí se", případně "nahoru jede každý, jak nemůže", které svádí k různým výkladům a následně i zmatkům, které následně vedou k nevraživosti mezi týmy i samotnými závodníky. Lepit to totiž za vás, holenkové, nikdo nebude!</br></br>
+				<b>(2) Vyváženost</b> - ve smyslu trasy, která se snaží dát prostor všem cyklo dovednostem a
+				krásám jako jsou vrchařina, sprinteřina, sjezdařina, ale i jízda v grupetu tzv.
+				na pohodu a kochačku, při které se nikdo nikam nežene a je čas pokecat a
+				užít si to, aniž by kdokoliv riskoval ztrátu na příp. konkurenty v pořadí. Jde tedy o to, aby během závodu nenastala nechtěná aviváž, při které by samotná trať stranila některému ze závodníků. Zejména nesmí být straněno závodníkům krásným.</br></br>
+				<b>(3) Bezpečnost</b> - peloton se rozrůstá (i realizační tým) a je třeba pečlivě přemýšlet nad tím
+				kudy projíždíme, kde zastavujeme a kde chčijeme. Zkrátka, kde závodíme jako blázni (díky
+				Bohu!), a kde by jakýkoliv závodění byla totální píčovina. I tak apelujeme na všechny účastníky - dávejte na sebe pozor ... je to trochu zázrak, že se zatim ještě
+				nikdo nezrakvil. A hlavně pamatujte, štěrk v zatáčkách kvůli vám nikdo před etapou uklízet nebude, to si nemyslete! </br></br>
+				<b>(4) Atraktivita</b> - věřím, že letos opět klapne počasí a čeká nás spektakulární zážitek. Nejdůležitějším bodem našeho Fair play desatera o čtyřech bodech je ale vypadat při závodě krásně a tak, aby naše ochlupená lýtka neunikla pohledu
+				žádné fanynky ani fanynka. Jen takto atraktivita dělá náš závod tím nejlepším závodem mezi všemi závody. Amen.</br></br>
+
+				Dále pouze heslovitě:</br></br>
+
+				- ne na každé prémii bude přítomen rozhodčí, takže bude nutno spolupracovat a pořadí si zapamatovat.</br>
+				- závodíme za plného silničního provozu, nutno dbát zvýšené opatrnosti, hlavním cílem je dojet živí a v pořádku</br>
+				- na každé etapě budou 1-2 povinné přestávky - občerstvení dle nálady (pivko, pikolíčko, zákuseček, prejt). Na těchto přestávkách zastaven závodní čas a po ukončení se bude vyjíždět v intervalech, ve kterých se přijelo (v některých vyjímečných
+				případech se bude vyjíždět hromadně)</br>
+				- vyhlášení výsledků jednotlivých etap bude co nejdříve po dokončení etapy (potom co uschnou dresy po předchozích majitelích) </br>
+				- slavnostní ceremoniál proběhne po dojetí poslední etapy v Mašově.
+			</p>
+		</div>
+	</div>
+
+	<!-- Button s odkazem...
+				<div class="row">
+					<div class="col-md-12 text-center">
+					<p><a href="http://freehtml5.co" target="_blank" class="btn btn-special">Visit Gettemplates.co</a></p>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	<!-- END .gtco-products
+
+		<div class="gtco-services gtco-section">
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+						<h2>Hlavní pořadatelé</h2>
+				</div>
+				<div class="row">
+
+					<div class="col-md-12">
+						<div class="owl-carousel owl-carousel-carousel">
+							<div class="item">
+								<div class="gtco-staff">
+									<img src="images/staff_1.jpg" alt="" class="img-responsive">
+									<h2>Miroslav Lenner</h2>
+									<p class="role">ředitel závodu</p>
+									<p> Zkušený ředitel již 3. ročníku G tour</p>
+									<ul class="fh5co-social">
+										<li><a href="#"><i class="icon-facebook"></i></a></li>
+										<li><a href="#"><i class="icon-twitter"></i></a></li>
+										<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item">
+								<div class="gtco-staff">
+									<img src="images/staff_2.jpg" alt="" class="img-responsive">
+									<h2>Zbyněk Štěrba</h2>
+									<p class="role">hlavní rozhodčí</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
+									<ul class="fh5co-social">
+										<li><a href="#"><i class="icon-facebook"></i></a></li>
+										<li><a href="#"><i class="icon-twitter"></i></a></li>
+										<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="item">
+								<div class="gtco-staff">
+									<img src="images/staff_3.jpg" alt="" class="img-responsive">
+									<h2>Daniela Lennerová</h2>
+									<p class="role">zdravotník</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
+									<ul class="fh5co-social">
+										<li><a href="#"><i class="icon-facebook"></i></a></li>
+										<li><a href="#"><i class="icon-twitter"></i></a></li>
+										<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="gtco-staff">
+									<img src="images/staff_1.jpg" alt="" class="img-responsive">
+									<h2>Jan Čermák</h2>
+									<p class="role">PR</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat enim et urna sagittis, rhoncus euismod erat tincidunt. Donec tincidunt volutpat erat.</p>
+									<ul class="fh5co-social">
+										<li><a href="#"><i class="icon-facebook"></i></a></li>
+										<li><a href="#"><i class="icon-twitter"></i></a></li>
+										<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>-->
+
+	<!-- Sekce ohlasy účastníků-->
+	<div class="gtco-section gtco-testimonial gtco-gray">
+		<div class="gtco-container">
+
+			<div class="row row-pb-sm">
+				<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
+					<h2>Ohlasy účastníků závodu</h2>
+					<p>Závod s tak dlouhou tradicí, jakým je G-tour, samozřejmě zanechal nekonečné množství ohlasů mezi závodníky.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-sm-6 animate-box">
+					<div class="gtco-testimony gtco-left">
+						<div><img src="images/person_1.jpg" alt="Free Website template by FreeHTML5.co"></div>
+						<blockquote>
+							<p>&ldquo;Hééj. To byl totál tohlecto, káámo!&rdquo; <cite class="author">&mdash; Štěpán (San Pellegrino)</cite></p>
+						</blockquote>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 animate-box">
+					<div class="gtco-testimony gtco-left">
+						<div><img src="images/person_2.jpg" alt="Free Website template by FreeHTML5.co"></div>
+						<blockquote>
+							<p>&ldquo;Si to zalepte sami, vy kurvy&rdquo;
+								<cite class="author">&mdash; Jiří (třetidivizní bezejmenný tým)</cite></p>
+						</blockquote>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 animate-box">
+					<div class="gtco-testimony gtco-left">
+						<div><img src="images/person_3.jpg" alt="Free Website template by FreeHTML5.co"></div>
+						<blockquote>
+							<p>&ldquo;Céééčččkaa!&rdquo; <cite class="author">&mdash;
+									?? (Cannabis Cannibals)</cite></p>
+						</blockquote>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 animate-box">
+					<div class="gtco-testimony gtco-left">
+						<div><img src="images/person_1.jpg" alt="Free Website template by FreeHTML5.co"></div>
+						<blockquote>
+							<p>&ldquo;Železo v nohách, železo v oblacích. G-tour navždy vyryto v našich zadnicích.&rdquo; <cite class="author">&mdash; Václav (Cannabis Cannibals)</cite></p>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 animate-box">
+					<div class="gtco-testimony gtco-left">
+						<div><img src="images/person_1.jpg" alt="Free Website template by FreeHTML5.co"></div>
+						<blockquote>
+							<p>&ldquo;Arnáš je zase v totálu..&rdquo; <cite class="author">&mdash; Jan (San Pellegrino)</cite></p>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 animate-box">
+					<div class="gtco-testimony gtco-left">
+						<div><img src="images/person_1.jpg" alt="Free Website template by FreeHTML5.co"></div>
+						<blockquote>
+							<p>&ldquo;Byla to taková esence cyglistiky toto!&rdquo; <cite class="author">&mdash; Miroslav Petrásek</cite></p>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer id="gtco-footer" class="gtco-section" role="contentinfo">
+		<div class="gtco-container">
+			<div class="row row-pb-md">
+				<div class="col-md-8 col-md-offset-2 gtco-cta text-center">
+					<h3>"Všechna čest stranou"</h3>
+					<p><a href="https://www.instagram.com/_gtour/?hl=cs" class="btn btn-white btn-outline">Sleduj nás</a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="gtco-copyright">
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-md-6 text-left">
+						<p><small>&copy; Gejlordi </small></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
