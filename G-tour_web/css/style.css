@@ -729,6 +729,21 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 
+.mapa {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        margin: auto;
+        overflow: hidden;
+    }
+    .mapa iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
 #gtco-footer a:hover {
   color: #000 !important;
 }
