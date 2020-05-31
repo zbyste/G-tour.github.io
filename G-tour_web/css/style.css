@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-nav {
-  position: relative;
+  position: fixed;
   top: 0;
   margin: 0;
   padding: 0;
@@ -227,8 +227,9 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 10px 0;
   }
 }
-.gtco-nav #gtco-logo {
+.gtco-nav #gtco-logo img {
   font-size: 20px;
+  max-width: 40px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -1357,6 +1358,7 @@ form label {
 @media screen and (max-width: 768px) {
   .gtco-nav-toggle {
     display: block;
+    position:fixed;
   }
 }
 
