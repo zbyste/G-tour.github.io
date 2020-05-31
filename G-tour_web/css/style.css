@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #777;
-  background: #fff;
+  background: #FDFDFA;
 }
 
 #page {
@@ -48,14 +48,15 @@ body {
 
 a {
   color: #262626;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: underline;
 }
 a:hover, a:active, a:focus {
-  color: #262626;
+  color: ##868585;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #clockdiv{
@@ -263,12 +264,14 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 16px;
   padding: 30px 10px;
   color: #262626;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none !important;
 }
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
-  color: #f2c900;
+  color: #868585;
+  text-decoration: none !important;
 }
 .gtco-nav ul li.has-dropdown {
   position: relative;
@@ -348,15 +351,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav ul li.has-dropdown .dropdown li a:hover {
   color: #fce935;
+  text-decoration: none !important;
 }
 .gtco-nav ul li.has-dropdown .dropdown li.active > a {
   color: #f2c900 !important;
+  text-decoration: none !important;
 }
 .gtco-nav ul li.has-dropdown:hover a, .gtco-nav ul li.has-dropdown:focus a {
   color: #303030;
+  text-decoration: none !important;
 }
 .gtco-nav ul li.btn-cta a {
   color: #303030;
+  text-decoration: none !important;
 }
 .gtco-nav ul li.btn-cta a span {
   background: #fff;
@@ -372,14 +379,17 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   border-radius: 100px;
+  text-decoration: none !important;
 }
 .gtco-nav ul li.btn-cta a:hover span {
   -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+  text-decoration: none !important;
 }
 .gtco-nav ul li.active > a {
   color: #000 !important;
+  text-decoration: none !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -761,6 +771,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #gtco-footer .gtco-cta .btn-white.btn-outline:hover {
   color: #e3c31c !important;
+  text-decoration: none !important;
 }
 #gtco-footer .gtco-footer-paragraph h3 {
   color: #fff;
@@ -1234,6 +1245,7 @@ form label {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  text-decoration: none !important;
 }
 .gototop.active {
   opacity: 1;
@@ -1250,6 +1262,7 @@ form label {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  text-decoration: none !important;
 }
 .gototop a i {
   height: 50px;
@@ -1265,7 +1278,7 @@ form label {
   width: 25px;
   height: 25px;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .gtco-nav-toggle.active i::before, .gtco-nav-toggle.active i::after {
   background: #444;
@@ -1388,6 +1401,7 @@ form label {
   -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+  text-decoration: none !important;
 }
 
 .btn-primary {
@@ -1445,6 +1459,7 @@ form label {
 .btn-info.btn-outline:hover, .btn-info.btn-outline:focus, .btn-info.btn-outline:active {
   background: #5bc0de;
   color: #fff;
+  text-decoration: none !important;
 }
 
 .btn-warning {
@@ -1460,10 +1475,12 @@ form label {
   background: transparent;
   color: #f0ad4e;
   border: 2px solid #f0ad4e;
+  text-decoration: none !important;
 }
 .btn-warning.btn-outline:hover, .btn-warning.btn-outline:focus, .btn-warning.btn-outline:active {
   background: #f0ad4e;
   color: #fff;
+  text-decoration: none !important;
 }
 
 .btn-danger {
@@ -1498,6 +1515,7 @@ form label {
 .btn-white.btn-outline {
   color: #1a1a1a;
   border: 2px solid #1a1a1a;
+  text-decoration: none !important;
 }
 .btn-white.btn-outline:hover, .btn-white.btn-outline:focus, .btn-white.btn-outline:active {
   background: #1a1a1a;

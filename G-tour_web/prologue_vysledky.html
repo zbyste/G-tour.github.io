@@ -141,61 +141,7 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
 
-						<p>Gtour začíná za</p>
-
-
-							<div id="clockdiv">
-							  <div>
-							    <span class="days" id="day"></span>
-							    <div class="smalltext">dní</div>
-							  </div>
-							  <div>
-							    <span class="hours" id="hour"></span>
-							    <div class="smalltext">hodin</div>
-							  </div>
-							  <div>
-							    <span class="minutes" id="minute"></span>
-							    <div class="smalltext">minut</div>
-							  </div>
-							  <div>
-							    <span class="seconds" id="second"></span>
-							    <div class="smalltext">sekund</div>
-							  </div>
-							</div>
-
-							<p id="demo"></p>
-
-							<script>
-
-							var deadline = new Date("jul 24, 2020 00:00:00").getTime();
-
-							var x = setInterval(function() {
-
-							var now = new Date().getTime();
-							var t = deadline - now;
-							var days = Math.floor(t / (1000 * 60 * 60 * 24));
-							var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
-							var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-							var seconds = Math.floor((t % (1000 * 60)) / 1000);
-							document.getElementById("day").innerHTML =days ;
-							document.getElementById("hour").innerHTML =hours;
-							document.getElementById("minute").innerHTML = minutes;
-							document.getElementById("second").innerHTML =seconds;
-							if (t < 0) {
-							        clearInterval(x);
-							        document.getElementById("demo").innerHTML = "TIME UP";
-							        document.getElementById("day").innerHTML ='0';
-							        document.getElementById("hour").innerHTML ='0';
-							        document.getElementById("minute").innerHTML ='0' ;
-							        document.getElementById("second").innerHTML = '0'; }
-							}, 1000);
-							</script>
-
-
-						<p>
-
-							tak nechápu, co tady hledáš!
-
+						<p></br></br>Zatím nic. Na množství krve, potu a slz si ještě musíš počkat.</p>
 						</p>
 					</div>
 				</div>
