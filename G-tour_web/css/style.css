@@ -68,7 +68,7 @@ a:hover, a:active, a:focus {
    font-size: 20px;
 }
 #clockdiv > div{
-   padding: 3px;
+   padding: 9px;
    border-radius: 3px;
    background: #262626;
    display: inline-block;
