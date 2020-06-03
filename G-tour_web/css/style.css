@@ -1145,7 +1145,7 @@ form label {
 }
 
 #gtco-offcanvas {
-  position: absolute;
+  position: fixed;
   z-index: 1901;
   width: 270px;
   background: black;
