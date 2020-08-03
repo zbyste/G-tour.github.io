@@ -124,6 +124,33 @@ table.zluta thead th {
   color: #4d4d4d;
   text-align: center;
 }
+table.blue {
+  border: 3px solid #4d4d4d;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blue td, table.blue th {
+  border: 1px solid #898989;
+  padding: 5px 4px;
+}
+table.blue tbody td {
+  font-size: 13px;
+}
+table.blue thead {
+  background: #CFCFCF;
+  background: -moz-linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  background: -webkit-linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  border-bottom: 3px solid #4d4d4d;
+}
+table.zluta blue th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #4d4d4d;
+  text-align: center;
+}
+
 table.cervena {
   border: 3px solid #4d4d4d;
   width: 100%;
