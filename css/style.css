@@ -144,7 +144,7 @@ table.blue thead {
   background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
   border-bottom: 3px solid #4d4d4d;
 }
-table.zluta blue th {
+table.blue thead th {
   font-size: 15px;
   font-weight: bold;
   color: #4d4d4d;
